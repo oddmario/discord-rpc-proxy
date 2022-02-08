@@ -19,4 +19,4 @@ Forward the Discord RPC (rich presence) server of a computer that has the Discor
 ## Warning
 This project exposes the Discord RPC server to the public interface of the machine running the server. Make sure to use a firewall to allow only the IP address of the receiving machine. The ports you have to restrict are `6462-6472`
 
-Any unauthorized access may result in full control over your Discord rich presence and potentially the whole Discord client (since the IPC server is exposed as well)
+Any unauthorized access may result in gaining full control over your Discord rich presence and potentially the whole Discord client (since the IPC server is exposed as well)
