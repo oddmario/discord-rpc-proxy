@@ -18,7 +18,7 @@ net.createServer(function(from) {
 }).listen(6462, "0.0.0.0");
 console.log(`Started proxy ${ipc_path} -> 0.0.0.0:6462`);
 
-for (let i = 6463; i < 6472; i++) {
+for (let i = 6463; i <= 6472; i++) {
     net.createServer(function(from) {
         var to = net.createConnection({
             host: "127.0.0.1",
