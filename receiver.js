@@ -15,6 +15,7 @@ if(!process.argv[2]) {
 }
 
 var ipc_path = getIPCPath();
+require("fs").rmSync(ipc_path, {recursive: true, force: true});
 
 net.createServer(function(from) {
     var to = net.createConnection({
