@@ -27,7 +27,7 @@ net.createServer(function(from) {
 }).listen(ipc_path);
 console.log(`Started proxy ${process.argv[2]}:6462 -> ${ipc_path}`);
 
-for (let i = 6463; i < 6472; i++) {
+for (let i = 6463; i <= 6472; i++) {
     net.createServer(function(from) {
         var to = net.createConnection({
             host: process.argv[2],
