@@ -3,7 +3,7 @@
 Forward the Discord RPC (rich presence) server of a computer that has the Discord client running to the external world.
 
 ## What's the use of this?
-- This is used in case you want to show a Discord rich presence of a machine that doesn't have Discord installed. The receiver will start a local Discord RPC server that your apps can communicate with.
+- This is used in case you want to show a Discord rich presence through a machine that doesn't have Discord installed. The receiver will start a local Discord RPC server that your apps can communicate with.
 
 ## How to use
 1. Make sure you're logged in to your Discord account on the machine that has the Discord client installed.
